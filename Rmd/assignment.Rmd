@@ -1,0 +1,84 @@
+---
+title: "Extra assignment 'Workflows' (tlsc-dsfb26v-20)"
+editor: visual
+output: 
+  rmdformats::downcute:
+    self_contained: TRUE
+    number_sections: FALSE
+---
+
+## Introduction
+
+This assignment is meant as an extra assignment for the course: `tlsc-dsfb26v-20_workflows` or 'Workflows' in short. The full reader for this course can be found [here](https://lesmaterialen.rstudio.hu.nl/workflows-reader/)
+
+The total assignment exists of two assignments:
+
+1.  Reproducible Research and project organization
+2.  Exploratory Data Analysis
+
+## Rules of engagement
+
+By agreeing to take on this assignment your are helt to abide by these rules:
+
+"For completing this assignment, I.."
+
+"..will not use an AI to generate code for me" "..will give proper attribution to any source I use" "..will not use any other resources then the course readers provided by Team Data Science ILC"
+
+Please Check the Box and provide your details:
+
+\[ \]
+
+Full Name:  
+Date:  
+Place:  
+
+
+## Assignment 1; Reproducible Research
+
+## Github
+
+For this assignment to complete, you need to create a seperate Github repository in your private Github account. Set the visibility to public.
+
+Follow the pointers below to complete the assignment:
+
+1.  Clone the repository: https://github.com/chrisvanoevelen/assignment_youri_lam.git to a new RStudio Project
+2.  Create a new repo in your account for completing the whole assignment (1 and 2)
+3.  Copy all relevant files to a logical project structure to the repo under point 2
+4.  Make the necessary documentation and organizations in your project to adhere to the reproducible research principle as explained in the course
+5.  Make assignment 2, also in the repo under 2.
+6.  Publish everything to the repo under 2. Set the visibility to public.
+
+**Some General Remarks / Things you score points with**
+
+-   Your project should be self-explanatory. This means that somebody reading and downloading your project should be able to understand the structure and have the right kind of documentation available to get started on your project
+-   You whould render all (R)md files to an output that can directly be viewed, for example to .html. Include code chunks as visible (set `echo=TRUE`)
+-   Please be aware to give any attribution to sources you have used to generate content in your project. Pay the proper respect to the associated licences of that content
+-   Add a licence to your project
+-   All figures in your project should be 'publish grade'. Meaning, the axes are properaly formatted and units are included. The figures are of the right dimensions and are appealing.
+
+## Assignment 2; Exploratory Data Analysis
+
+**Work out this exercise in a separate Rmarkdown file in your portfolio-project. You will need this later to put in your portfolio)**
+
+The data for this exercise was kindly supplied by dr. C. Van Oevelen and was derived from an iterative search on the <https://iknl.nl/nkr-cijfers> dashboard. The variables in the data are:
+
+-   Kankersoort\
+-   Periode\
+-   Geslacht
+-   Leeftijdsgroep\
+-   CR (Crude Rate / ruwe incidentie): het aantal nieuwe diagnoses per 100.000 personen per jaar in de Nederlandse bevolking)  
+
+The Rmd should include the following parameters:   
+
+-   Kankersoort    
+-   Geslacht  
+-   Leeftijdsgroep  
+
+**Complete all the steps below to complete assigment 2**
+
+The output file contains an appropriate graph that show the Crude Rate (cr) over time for a selected "kankersoort, "Geslacht" and "leeftijdsgroep". The plot should be completely labelled and self informative
+
+Formulate a research question. What do you want to compare? "kankersoorten", "leeftijdsgroepen" or "geslacht" or a combination of these parameters
+Generate at least four outputs files and compare the graphs. Write a short conclusion. 
+
+**Good Luck!!**
